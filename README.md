@@ -1,4 +1,4 @@
-# DBL.NET
+# DBL.NET [![](https://img.shields.io/nuget/v/DBL.Net.svg?style=for-the-badge)](https://www.nuget.org/packages/DBL.Net)
 A .NET standard wrapper around the Discord Bot List API. Because the API methods are not `async`, you do *not* need to use these in `async` functions, and you may use the `.Wait()` method of the Task the methods return, however it is not recommended because of the possibility of deadlocks.
 
 # Usage
