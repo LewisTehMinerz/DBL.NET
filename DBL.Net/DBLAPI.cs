@@ -87,6 +87,7 @@ namespace DBL.Net
         /// <param name="endpoint">The endpoint to send the request to.</param>
         /// <param name="method">The method to use for the request.</param>
         /// <param name="queryString">The query string to add on to the request.</param>
+        /// <param name="botStatistics">A <see cref="BotStatistics"/> object for the <see cref="PostStats(string, BotStatisticsPayload)"/> method.</param>
         private async Task<bool> MakeRequest(string endpoint, HttpMethod method, Dictionary<string, object> queryString = null,
             BotStatisticsPayload botStatistics = null)
         {
