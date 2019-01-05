@@ -3,7 +3,7 @@
 namespace DBL.Net.Entities
 {
     /// <summary>
-    /// A bot statistics object. Currently unused as the required endpoint does not exist.
+    /// A bot statistics object.
     /// </summary>
     public class BotStatistics
     {
